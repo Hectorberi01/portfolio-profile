@@ -1,4 +1,5 @@
 import RevealWrapper from './RevealWrapper'
+import {FaGithub, FaLinkedinIn, FaStaylinked} from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -21,8 +22,8 @@ export default function Contact() {
           </div>
 
           <div className="contact-links">
-            <a className="contact-link" href="tel:0698367919">
-              <span className="icon"></span> 069-836-7919
+            <a className="contact-link" href="tel:+33698367919">
+              <span className="icon"></span> 📞 +33 6 98 36 79 19
             </a>
             <a
                 className="contact-link"
@@ -30,6 +31,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noreferrer"
             >
+              <FaGithub />
               <span className="icon"></span> GitHub
             </a>
             <a
@@ -38,6 +40,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noreferrer"
             >
+              <FaLinkedinIn/>
               <span className="icon"></span> LinkedIn
             </a>
             <a className="contact-link" href="#">
