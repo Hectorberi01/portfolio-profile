@@ -1,5 +1,5 @@
 import RevealWrapper from './RevealWrapper'
-import {FaGithub, FaLinkedinIn, FaStaylinked} from "react-icons/fa";
+import {FaGithub, FaLinkedinIn} from "react-icons/fa";
 
 export default function Contact() {
   return (
