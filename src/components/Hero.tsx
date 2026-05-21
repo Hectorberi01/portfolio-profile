@@ -7,7 +7,6 @@ export default function Hero() {
       <div className="hero-avatar">
         <img src="/images/hector1.jpg" alt="Hector Adjakpa" />
       </div>
-
       <div className="hero-label">Développeur Full Stack C# .NET ASP Core</div>
 
       <h1 className="hero-title">
