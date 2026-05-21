@@ -44,7 +44,7 @@ export default function Nav() {
             <div className="nav-dropdown-menu">
               <a
                 className="nav-dropdown-item"
-                href="../../public/docs/Hector_ADJAKPA_CV_CDI.pdf"
+                href="/docs/Hector_ADJAKPA_CV_CDI.pdf"
                 download="CV_Hector_Adjakpa.pdf"
               >
                 <span className="dropdown-icon"></span>
@@ -66,7 +66,7 @@ export default function Nav() {
               </a>
               <a
                 className="nav-dropdown-item"
-                href="../../public/docs/Lettre_de_motivation.pdf"
+                href="/docs/Lettre_de_motivation.pdf"
                 download="Lettre_Motivation_Hector_Adjakpa.pdf"
               >
                 <span className="dropdown-icon"></span>
