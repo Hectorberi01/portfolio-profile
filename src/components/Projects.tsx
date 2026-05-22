@@ -33,7 +33,7 @@ const projects: Project[] = [
     description:
         'Projet en cours de réalisation. Providers permettant de regrouper plusieurs moyen de paiement en un facilitant l\'intégration aux développeurs  ',
     tags: ['.NET', 'React', 'PostgreSQL', 'API Gateway'],
-    github: 'https://github.com/Hectorberi01',
+    github: 'https://github.com/Hectorberi01/AfriPay',
     featured: true,
   },
 ]
