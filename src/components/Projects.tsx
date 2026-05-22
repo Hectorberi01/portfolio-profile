@@ -24,7 +24,7 @@ const projects: Project[] = [
     description:
       'Projet réaliser dans le cadre du master 1 permettant la gestion des projets académiques',
     tags: ['NodeJs', 'TypeScript', 'React', 'MySQL'],
-    github: 'https://github.com/Hectorberi01',
+    github: 'https://github.com/Hectorberi01/NewPA',
     featured: true,
   },
 
