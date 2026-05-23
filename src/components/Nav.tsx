@@ -25,6 +25,7 @@ export default function Nav() {
         <li><a href="#projects">Projets</a></li>
         <li><a href="#experience">Expérience</a></li>
         <li><a href="#formation">Formation</a></li>
+        <li><a href="#interests">Intérêts</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="nav-actions">
