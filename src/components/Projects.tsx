@@ -17,6 +17,7 @@ const projects: Project[] = [
         ' Architecture microservices avec gestion des commandes, paiements mobiles et catalogue produits.',
     tags: ['C# / .NET 9', 'Microservices', 'Kafka', 'Docker', 'Traefik', 'PostgreSQL'],
     github: 'https://github.com/Hectorberi01',
+    live: 'http://193.168.145.162:4002/docs/',
     featured: true,
   },
   {
@@ -32,7 +33,7 @@ const projects: Project[] = [
     title: 'Provider de paiement',
     description:
         'Projet en cours de réalisation. Providers permettant de regrouper plusieurs moyen de paiement en un facilitant l\'intégration aux développeurs  ',
-    tags: ['.NET', 'React', 'PostgreSQL', 'API Gateway'],
+    tags: ['.NET', 'React', 'PostgreSQL','Ansible','Git Action','Caddy'],
     github: 'https://github.com/Hectorberi01/AfriPay',
     live: 'https://staging-afripay.fr/docs',
     featured: true,
