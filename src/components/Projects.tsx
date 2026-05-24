@@ -15,8 +15,8 @@ const projects: Project[] = [
     description:
       'Développement d\'une Plateforme e-commerce ciblant les marchés Européen et Africain.' +
         ' Architecture microservices avec gestion des commandes, paiements mobiles et catalogue produits.',
-    tags: ['C# / .NET 9', 'Microservices', 'Kafka', 'Docker', 'Traefik', 'PostgreSQL'],
-    github: 'https://github.com/Hectorberi01',
+    tags: ['TypeScript', 'React', 'PostgreSQL', 'Ansible', 'Docker','Git Action'],
+    github: 'https://github.com/Hectorberi01/hba-store',
     live: 'http://193.168.145.162:4002/docs/',
     featured: true,
   },
