@@ -19,7 +19,7 @@ const projects: Project[] = [
     tags: ['TypeScript', 'React', 'PostgreSQL', 'Ansible', 'Docker','Git Action'],
     github: 'https://github.com/Hectorberi01/hba-store',
     live: 'https://test-projet.com/docs',
-    featured: false,
+    featured: true,
   },
   {
     title: 'Application de gestion des étudiants',
@@ -28,7 +28,7 @@ const projects: Project[] = [
         'le suivi des projets pédagogiques et la centralisation des informations universitaires.',
     tags: ['NodeJS', 'TypeScript', 'React', 'MySQL'],
     github: 'https://github.com/Hectorberi01/NewPA',
-    featured: false,
+    featured: true,
   },
 
   {
@@ -39,7 +39,26 @@ const projects: Project[] = [
     tags: ['.NET', 'React', 'PostgreSQL', 'Ansible', 'GitHub Actions', 'Caddy'],
     github: 'https://github.com/Hectorberi01/AfriPay',
     live: 'https://staging-afripay.fr/docs',
-    featured: false,
+    featured: true,
+  },
+  {
+    title: 'Media Storage Service',
+    description:
+        "Développement d’un service de stockage de médias et documents déployé sur VPS. " +
+        "Conception d’une API centralisée permettant l’upload, la compression, " +
+        "la gestion et la sécurisation des images/fichiers pour plusieurs applications.",
+    tags: [
+      'Node.js',
+      'NestJS',
+      'React',
+      'PostgreSQL',
+      'Docker',
+      'TypeScript',
+      'Caddy'
+    ],
+    github: 'https://github.com/Hectorberi01/media-service',
+    live: 'https://hbamediacore.fr/',
+    featured: true,
   },
 ]
 
