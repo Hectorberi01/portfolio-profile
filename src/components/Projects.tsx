@@ -13,30 +13,33 @@ const projects: Project[] = [
   {
     title: 'Plateforme E-Commerce',
     description:
-      'Développement d\'une Plateforme e-commerce ciblant les marchés Européen et Africain.' +
-        ' Architecture microservices avec gestion des commandes, paiements mobiles et catalogue produits.',
+        "Développement d’une plateforme e-commerce destinée aux marchés européens et africains. " +
+        "Conception d’une architecture monolithique intégrant la gestion des commandes, " +
+        "des paiements mobiles et du catalogue produits.",
     tags: ['TypeScript', 'React', 'PostgreSQL', 'Ansible', 'Docker','Git Action'],
     github: 'https://github.com/Hectorberi01/hba-store',
-    live: 'http://193.168.145.162:4002/docs/',
-    featured: true,
+    live: 'https://test-projet.com/docs',
+    featured: false,
   },
   {
     title: 'Application de gestion des étudiants',
     description:
-      'Projet réaliser dans le cadre du master 1 permettant la gestion des projets académiques',
-    tags: ['NodeJs', 'TypeScript', 'React', 'MySQL'],
+        'Conception et développement d’une plateforme de gestion académique permettant l’administration des étudiants, ' +
+        'le suivi des projets pédagogiques et la centralisation des informations universitaires.',
+    tags: ['NodeJS', 'TypeScript', 'React', 'MySQL'],
     github: 'https://github.com/Hectorberi01/NewPA',
-    featured: true,
+    featured: false,
   },
 
   {
     title: 'Provider de paiement',
     description:
-        'Projet en cours de réalisation. Providers permettant de regrouper plusieurs moyen de paiement en un facilitant l\'intégration aux développeurs  ',
-    tags: ['.NET', 'React', 'PostgreSQL','Ansible','Git Action','Caddy'],
+        'Conception d’une plateforme de paiement unifiée permettant l’intégration de plusieurs solutions de paiement via une API centralisée. ' +
+        'Mise en place du déploiement automatisé, de l’infrastructure serveur et des workflows CI/CD.',
+    tags: ['.NET', 'React', 'PostgreSQL', 'Ansible', 'GitHub Actions', 'Caddy'],
     github: 'https://github.com/Hectorberi01/AfriPay',
     live: 'https://staging-afripay.fr/docs',
-    featured: true,
+    featured: false,
   },
 ]
 
