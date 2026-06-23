@@ -18,7 +18,6 @@ const projects: Project[] = [
         "des paiements mobiles et du catalogue produits.",
     tags: ['TypeScript', 'React', 'PostgreSQL', 'Ansible', 'Docker','Git Action'],
     github: 'https://github.com/Hectorberi01/hba-store',
-    live: 'https://test-projet.com/docs',
     featured: true,
   },
   {
@@ -38,7 +37,6 @@ const projects: Project[] = [
         'Mise en place du déploiement automatisé, de l’infrastructure serveur et des workflows CI/CD.',
     tags: ['.NET', 'React', 'PostgreSQL', 'Ansible', 'GitHub Actions', 'Caddy'],
     github: 'https://github.com/Hectorberi01/AfriPay',
-    live: 'https://staging-afripay.fr/docs',
     featured: true,
   },
   {
